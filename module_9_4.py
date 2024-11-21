@@ -27,11 +27,13 @@ class MysticBall:
 
 
 if __name__ == '__main__':
+    # Пример проверки кода Lambda-функция
     print(result)
     print()
+    # Пример проверки кода Замыкание
     write = get_advanced_writer('example.txt')
     write('Это строчка', ['А', 'это', 'уже', 'число', 5, 'в', 'списке'])
-
+    # Пример проверки кода Метод __call__
     first_ball = MysticBall('Да', 'Нет', 'Наверное')
     print(first_ball())
     print(first_ball())
